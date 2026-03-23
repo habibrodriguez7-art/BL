@@ -108,11 +108,13 @@ UIAspectRatioConstraint5.Parent = Animation1
 --========================================================================================================================--
 -- LOAD UI
 --========================================================================================================================--
+local BASE = "https://raw.githubusercontent.com/habibrodriguez7-art/BL/refs/heads/main/BloxFruitHub_NewUI-main/"
+
 --Sea1
-loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/BloxFruitHub_NewUI/refs/heads/main/Island_UISea1.lua"))()
+loadstring(game:HttpGet(BASE.."Island_UISea1.lua"))()
 
 --Sea2
-loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/BloxFruitHub_NewUI/refs/heads/main/Island_UISea2.lua"))()
+loadstring(game:HttpGet(BASE.."Island_UISea2.lua"))()
 
 --Sea3
-loadstring(game:HttpGet("https://raw.githubusercontent.com/HAPPY-script/BloxFruitHub_NewUI/refs/heads/main/Island_UISea3.lua"))()
+loadstring(game:HttpGet(BASE.."Island_UISea3.lua"))()
